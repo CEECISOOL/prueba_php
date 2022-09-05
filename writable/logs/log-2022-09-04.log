@@ -1,0 +1,360 @@
+CRITICAL - 2022-09-04 16:01:47 --> syntax error, unexpected '<'
+in APPPATH\Views\comercios\listarComercios.php on line 22.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(17): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 16:02:12 --> syntax error, unexpected '<'
+in APPPATH\Views\comercios\listarComercios.php on line 22.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(17): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 16:02:50 --> syntax error, unexpected '<'
+in APPPATH\Views\comercios\listarComercios.php on line 21.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(17): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 16:03:11 --> syntax error, unexpected '<'
+in APPPATH\Views\comercios\listarComercios.php on line 22.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(17): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 16:03:31 --> syntax error, unexpected '<'
+in APPPATH\Views\comercios\listarComercios.php on line 22.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(17): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 16:03:33 --> syntax error, unexpected '<'
+in APPPATH\Views\comercios\listarComercios.php on line 22.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(17): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 16:03:34 --> syntax error, unexpected '<'
+in APPPATH\Views\comercios\listarComercios.php on line 22.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(17): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 16:03:35 --> syntax error, unexpected '<'
+in APPPATH\Views\comercios\listarComercios.php on line 22.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(17): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 16:03:49 --> syntax error, unexpected '}', expecting ';' or ','
+in APPPATH\Views\comercios\listarComercios.php on line 23.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(17): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 16:03:56 --> syntax error, unexpected '}', expecting ';' or ','
+in APPPATH\Views\comercios\listarComercios.php on line 23.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(17): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-04 19:57:39 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_comercio`.`cbus`, CONSTRAINT `id_comercios_cbu` FOREIGN KEY (`comercios_id`) REFERENCES `comercios` (`id_comercio`) ON DELETE CASCADE) in C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cb...', 0)
+#1 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cb...')
+#2 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cb...')
+#3 C:\xampp\htdocs\comercios\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cb...', Array, false)
+#4 C:\xampp\htdocs\comercios\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\comercios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\comercios\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\comercios\app\Controllers\Comercios.php(50): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\comercios\system\CodeIgniter.php(904): App\Controllers\Comercios->guardar()
+#9 C:\xampp\htdocs\comercios\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+#10 C:\xampp\htdocs\comercios\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\comercios\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-04 20:01:24 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_comercio`.`cbus`, CONSTRAINT `id_comercios_cbu` FOREIGN KEY (`comercios_id`) REFERENCES `comercios` (`id_comercio`) ON DELETE CASCADE) in C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cb...', 0)
+#1 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cb...')
+#2 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cb...')
+#3 C:\xampp\htdocs\comercios\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cb...', Array, false)
+#4 C:\xampp\htdocs\comercios\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\comercios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\comercios\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\comercios\app\Controllers\Comercios.php(52): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\comercios\system\CodeIgniter.php(904): App\Controllers\Comercios->guardar()
+#9 C:\xampp\htdocs\comercios\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+#10 C:\xampp\htdocs\comercios\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\comercios\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-04 20:02:18 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_comercio`.`cbus`, CONSTRAINT `id_comercios_cbu` FOREIGN KEY (`comercios_id`) REFERENCES `comercios` (`id_comercio`) ON DELETE CASCADE) in C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cb...', 0)
+#1 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cb...')
+#2 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cb...')
+#3 C:\xampp\htdocs\comercios\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cb...', Array, false)
+#4 C:\xampp\htdocs\comercios\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\comercios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\comercios\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\comercios\app\Controllers\Comercios.php(52): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\comercios\system\CodeIgniter.php(904): App\Controllers\Comercios->guardar()
+#9 C:\xampp\htdocs\comercios\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+#10 C:\xampp\htdocs\comercios\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\comercios\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-04 20:13:02 --> Call to undefined function App\Controllers\find()
+in APPPATH\Controllers\Comercios.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 20:13:55 --> Call to undefined function App\Controllers\find()
+in APPPATH\Controllers\Comercios.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-04 20:15:28 --> mysqli_sql_exception: Column 'comercios_id' cannot be null in C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cb...', 0)
+#1 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cb...')
+#2 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cb...')
+#3 C:\xampp\htdocs\comercios\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cb...', Array, false)
+#4 C:\xampp\htdocs\comercios\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\comercios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\comercios\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\comercios\app\Controllers\Comercios.php(57): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\comercios\system\CodeIgniter.php(904): App\Controllers\Comercios->guardar()
+#9 C:\xampp\htdocs\comercios\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+#10 C:\xampp\htdocs\comercios\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\comercios\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-04 20:15:50 --> mysqli_sql_exception: Column 'comercios_id' cannot be null in C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cb...', 0)
+#1 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cb...')
+#2 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cb...')
+#3 C:\xampp\htdocs\comercios\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cb...', Array, false)
+#4 C:\xampp\htdocs\comercios\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\comercios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\comercios\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\comercios\app\Controllers\Comercios.php(57): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\comercios\system\CodeIgniter.php(904): App\Controllers\Comercios->guardar()
+#9 C:\xampp\htdocs\comercios\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+#10 C:\xampp\htdocs\comercios\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\comercios\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-04 20:18:59 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\comercios\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\comercios\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\comercios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\comercios\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\comercios\app\Controllers\Comercios.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\comercios\system\CodeIgniter.php(904): App\Controllers\Comercios->guardar()
+#9 C:\xampp\htdocs\comercios\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+#10 C:\xampp\htdocs\comercios\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\comercios\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-04 20:26:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(21): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 20:27:43 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(21): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-04 20:28:09 --> mysqli_sql_exception: Unknown column 'id_user' in 'where clause' in C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\comercios\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\comercios\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\comercios\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\comercios\app\Controllers\Home.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\comercios\system\CodeIgniter.php(904): App\Controllers\Home->login()
+#8 C:\xampp\htdocs\comercios\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\comercios\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\comercios\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-04 20:28:09 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 250.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Home.php(21): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-04 20:28:20 --> mysqli_sql_exception: Unknown column 'id_user' in 'where clause' in C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\comercios\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\comercios\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\comercios\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\comercios\app\Controllers\Home.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\comercios\system\CodeIgniter.php(904): App\Controllers\Home->login()
+#8 C:\xampp\htdocs\comercios\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\comercios\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\comercios\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-04 20:28:20 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 250.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Home.php(21): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 20:30:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(21): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 20:31:51 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(21): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-04 20:32:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:' at line 3 in C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\comercios\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\comercios\app\Models\Usuarios.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\comercios\app\Controllers\Home.php(21): App\Models\Usuarios->obtenerUsuario(Array)
+#6 C:\xampp\htdocs\comercios\system\CodeIgniter.php(904): App\Controllers\Home->login()
+#7 C:\xampp\htdocs\comercios\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\comercios\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\comercios\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-04 20:32:54 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Usuarios.php on line 11.
+ 1 APPPATH\Controllers\Home.php(21): App\Models\Usuarios->obtenerUsuario([...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 20:36:24 --> Class 'App\Controllers\User' not found
+in APPPATH\Controllers\Comercios.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 20:36:56 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Comercios.php(16): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 20:37:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Comercios.php(16): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 20:40:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Comercios.php(16): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 20:43:59 --> Call to undefined method App\Models\Usuarios::obtenerUsuario
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Home.php(19): CodeIgniter\Model->__call('obtenerUsuario', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 20:45:09 --> syntax error, unexpected ','
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 20:45:46 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Controllers\Home.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Controllers\\Home.php', 22, [...])
+ 2 APPPATH\Controllers\Home.php(22): count(null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 20:47:52 --> syntax error, unexpected '}'
+in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,525 @@
+CRITICAL - 2022-09-05 11:32:05 --> syntax error, unexpected '}'
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 11:32:28 --> syntax error, unexpected '}', expecting ';'
+in APPPATH\Controllers\Home.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 11:33:01 --> Call to a member function buscarUsuario() on null
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 11:37:20 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Home.php(25): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 11:39:36 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Home.php(25): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 11:41:51 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Home.php(25): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 11:43:34 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Controllers\Home.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 11:43:46 --> Function name must be a string
+in APPPATH\Controllers\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 11:50:52 --> hex2bin(): Input string must be hexadecimal string
+in APPPATH\Controllers\Home.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hex2bin(): Input string must be hexadecimal string', 'APPPATH\\Controllers\\Home.php', 26, [...])
+ 2 APPPATH\Controllers\Home.php(26): hex2bin('Z¦œ¢Ík6ö×‹þû7ðÇ¬í?hŸWáx‰QÆz=0øœk”+zB"ÄbÚ(nÆÎ,6­÷í}‡cpU@ËHvI1Š±ÉLOmë®ò´')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 11:51:17 --> Call to undefined function App\Controllers\hex2hex()
+in APPPATH\Controllers\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 11:55:35 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Home.php on line 69.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 11:59:36 --> Call to a member function buscarUsuario() on null
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 11:59:49 --> Object of class App\Models\Usuarios could not be converted to string
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:03:26 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Home.php(26): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:03:55 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Home.php(25): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:04:12 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Home.php(26): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:04:26 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\Home.php(25): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:11:44 --> Call to a member function where() on null
+in APPPATH\Controllers\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:15:18 --> Argument 2 passed to view() must be of the type array, object given, called in C:\xampp\htdocs\comercios\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Home.php(34): view('/comercios', Object(CodeIgniter\Session\Session))
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:15:54 --> Too few arguments to function view(), 0 passed in C:\xampp\htdocs\comercios\app\Controllers\Home.php on line 34 and at least 1 expected
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Home.php(34): view()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:16:21 --> Too few arguments to function view(), 0 passed in C:\xampp\htdocs\comercios\app\Controllers\Home.php on line 34 and at least 1 expected
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Home.php(34): view()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:16:30 --> Too few arguments to function view(), 0 passed in C:\xampp\htdocs\comercios\app\Controllers\Home.php on line 34 and at least 1 expected
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Home.php(34): view()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:16:41 --> Too few arguments to function view(), 0 passed in C:\xampp\htdocs\comercios\app\Controllers\Home.php on line 34 and at least 1 expected
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Home.php(34): view()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:17:10 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, object given, called in C:\xampp\htdocs\comercios\app\Controllers\Home.php on line 34
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\HTTP\RedirectResponse->to('http://localhost/comercios/public/comercios', Object(CodeIgniter\Session\Session))
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:17:30 --> Argument 2 passed to base_url() must be of the type string or null, object given, called in C:\xampp\htdocs\comercios\app\Controllers\Home.php on line 34
+in SYSTEMPATH\Helpers\url_helper.php on line 101.
+ 1 APPPATH\Controllers\Home.php(34): base_url('/comercios', Object(CodeIgniter\Session\Session))
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:22:25 --> Use of undefined constant session - assumed 'session' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\comercios\listarComercios.php on line 20.
+ 1 APPPATH\Views\comercios\listarComercios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant session - assumed \'session\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\comercios\\listarComercios.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\comercios\\listarComercios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 5 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:23:05 --> Use of undefined constant session - assumed 'session' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\comercios\listarComercios.php on line 20.
+ 1 APPPATH\Views\comercios\listarComercios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant session - assumed \'session\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\comercios\\listarComercios.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\comercios\\listarComercios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 5 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:23:35 --> Use of undefined constant session - assumed 'session' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\comercios\listarComercios.php on line 20.
+ 1 APPPATH\Views\comercios\listarComercios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant session - assumed \'session\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\comercios\\listarComercios.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\comercios\\listarComercios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 5 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:35:26 --> Function name must be a string
+in APPPATH\Views\comercios\listarComercios.php on line 4.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 4 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:35:32 --> Function name must be a string
+in APPPATH\Views\comercios\listarComercios.php on line 4.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 4 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:38:09 --> syntax error, unexpected ':'
+in APPPATH\Views\comercios\listarComercios.php on line 26.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:47:48 --> syntax error, unexpected 'else' (T_ELSE)
+in APPPATH\Views\comercios\listarComercios.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:53:29 --> syntax error, unexpected 'else' (T_ELSE)
+in APPPATH\Views\comercios\listarComercios.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:53:48 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH\Views\comercios\listarComercios.php on line 38.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:55:55 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+in APPPATH\Views\comercios\listarComercios.php on line 38.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 12:56:26 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+in APPPATH\Views\comercios\listarComercios.php on line 38.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 13:00:46 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+in APPPATH\Views\comercios\listarComercios.php on line 38.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 13:00:58 --> Invalid argument supplied for foreach()
+in APPPATH\Views\comercios\listarComercios.php on line 6.
+ 1 APPPATH\Views\comercios\listarComercios.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\comercios\\listarComercios.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\comercios\\listarComercios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 5 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 13:02:07 --> Invalid argument supplied for foreach()
+in APPPATH\Views\comercios\listarComercios.php on line 7.
+ 1 APPPATH\Views\comercios\listarComercios.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\comercios\\listarComercios.php', 7, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\comercios\\listarComercios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 5 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 13:02:10 --> Invalid argument supplied for foreach()
+in APPPATH\Views\comercios\listarComercios.php on line 7.
+ 1 APPPATH\Views\comercios\listarComercios.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\comercios\\listarComercios.php', 7, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\comercios\\listarComercios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 5 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 13:02:54 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\comercios\listarComercios.php on line 42.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 3 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 13:03:08 --> Illegal string offset 'id_comercio'
+in APPPATH\Views\comercios\listarComercios.php on line 24.
+ 1 APPPATH\Views\comercios\listarComercios.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_comercio\'', 'APPPATH\\Views\\comercios\\listarComercios.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\comercios\\listarComercios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 5 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 13:03:24 --> Illegal string offset 'id_comercio'
+in APPPATH\Views\comercios\listarComercios.php on line 22.
+ 1 APPPATH\Views\comercios\listarComercios.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_comercio\'', 'APPPATH\\Views\\comercios\\listarComercios.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\comercios\\listarComercios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 5 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 13:03:42 --> Illegal string offset 'user_id'
+in APPPATH\Views\comercios\listarComercios.php on line 23.
+ 1 APPPATH\Views\comercios\listarComercios.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'user_id\'', 'APPPATH\\Views\\comercios\\listarComercios.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\comercios\\listarComercios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 5 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 13:03:51 --> Illegal string offset 'razon_social'
+in APPPATH\Views\comercios\listarComercios.php on line 24.
+ 1 APPPATH\Views\comercios\listarComercios.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'razon_social\'', 'APPPATH\\Views\\comercios\\listarComercios.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\comercios\\listarComercios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 5 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 13:07:29 --> Invalid argument supplied for foreach()
+in APPPATH\Views\comercios\listarComercios.php on line 6.
+ 1 APPPATH\Views\comercios\listarComercios.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\comercios\\listarComercios.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\comercios\\listarComercios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('comercios/listarComercios', [], true)
+ 5 APPPATH\Controllers\Comercios.php(22): view('comercios/listarComercios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comercios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comercios))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 14:14:15 --> syntax error, unexpected '}'
+in APPPATH\Controllers\Cbus.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Cbus.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cbus')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cbus')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Cbus')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Cbus', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 14:14:26 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Cbus.php on line 97.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Cbus.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cbus')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cbus')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Cbus')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Cbus', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 14:14:39 --> Call to a member function where() on null
+in APPPATH\Controllers\Cbus.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Cbus->indexCbu('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cbus))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 14:15:07 --> Call to a member function where() on null
+in APPPATH\Controllers\Cbus.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Cbus->indexCbu('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cbus))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 14:16:37 --> Call to a member function where() on null
+in APPPATH\Controllers\Cbus.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Cbus->indexCbu('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cbus))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-05 15:12:04 --> syntax error, unexpected 'return' (T_RETURN)
+in APPPATH\Controllers\Cbus.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Cbus.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cbus')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cbus')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Cbus')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Cbus', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-05 15:23:30 --> mysqli_sql_exception: Column 'cbu' cannot be null in C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cb...', 0)
+#1 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cb...')
+#2 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cb...')
+#3 C:\xampp\htdocs\comercios\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cb...', Array, false)
+#4 C:\xampp\htdocs\comercios\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\comercios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\comercios\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\comercios\app\Controllers\Cbus.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\comercios\system\CodeIgniter.php(904): App\Controllers\Cbus->guardarCbu('29')
+#9 C:\xampp\htdocs\comercios\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cbus))
+#10 C:\xampp\htdocs\comercios\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\comercios\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-05 15:24:31 --> mysqli_sql_exception: Column 'cbu' cannot be null in C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cb...', 0)
+#1 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cb...')
+#2 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cb...')
+#3 C:\xampp\htdocs\comercios\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cb...', Array, false)
+#4 C:\xampp\htdocs\comercios\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\comercios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\comercios\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\comercios\app\Controllers\Cbus.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\comercios\system\CodeIgniter.php(904): App\Controllers\Cbus->guardarCbu('29')
+#9 C:\xampp\htdocs\comercios\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cbus))
+#10 C:\xampp\htdocs\comercios\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\comercios\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-05 15:26:09 --> mysqli_sql_exception: Column 'cbu' cannot be null in C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cb...', 0)
+#1 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cb...')
+#2 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cb...')
+#3 C:\xampp\htdocs\comercios\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cb...', Array, false)
+#4 C:\xampp\htdocs\comercios\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\comercios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\comercios\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\comercios\app\Controllers\Cbus.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\comercios\system\CodeIgniter.php(904): App\Controllers\Cbus->guardarCbu('29')
+#9 C:\xampp\htdocs\comercios\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cbus))
+#10 C:\xampp\htdocs\comercios\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\comercios\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-05 15:26:38 --> mysqli_sql_exception: Column 'cbu' cannot be null in C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cb...', 0)
+#1 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cb...')
+#2 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cb...')
+#3 C:\xampp\htdocs\comercios\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cb...', Array, false)
+#4 C:\xampp\htdocs\comercios\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\comercios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\comercios\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\comercios\app\Controllers\Cbus.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\comercios\system\CodeIgniter.php(904): App\Controllers\Cbus->guardarCbu('30')
+#9 C:\xampp\htdocs\comercios\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cbus))
+#10 C:\xampp\htdocs\comercios\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\comercios\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-05 15:31:36 --> mysqli_sql_exception: Column 'cbu' cannot be null in C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\comercios\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cb...', 0)
+#1 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cb...')
+#2 C:\xampp\htdocs\comercios\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cb...')
+#3 C:\xampp\htdocs\comercios\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cb...', Array, false)
+#4 C:\xampp\htdocs\comercios\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\comercios\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\comercios\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\comercios\app\Controllers\Cbus.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\comercios\system\CodeIgniter.php(904): App\Controllers\Cbus->guardarCbu('30')
+#9 C:\xampp\htdocs\comercios\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cbus))
+#10 C:\xampp\htdocs\comercios\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\comercios\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}

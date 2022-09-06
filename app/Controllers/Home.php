@@ -29,7 +29,8 @@ class Home extends BaseController
 					'id_user'=>$resultadoUsuario->id_user,
 					'name'=>$resultadoUsuario->name
 				];	
-			    session() ->set($data);
+				$session = session();
+				$session->set($data);
 				return redirect()->to(base_url('/comercios'))->with('mensaje','1', $session);
 			}else{
 				$data=['tipo'=>'danger', 'mensaje'=>'La clave es incorrecta'];

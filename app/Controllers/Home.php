@@ -27,6 +27,7 @@ class Home extends BaseController
 				$data= [
 					'email'=>$resultadoUsuario->email,
 					'id_user'=>$resultadoUsuario->id_user,
+					'type'=>$resultadoUsuario->type,
 					'name'=>$resultadoUsuario->name
 				];	
 				$session = session();
@@ -42,6 +43,12 @@ class Home extends BaseController
 
 		}
     }
+
+	public function salir() {
+		$session = session();
+		$session->destroy();
+		return redirect()->to(base_url('/'));
+	}
 }
 
 

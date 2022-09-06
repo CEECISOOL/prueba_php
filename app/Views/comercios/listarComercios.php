@@ -1,6 +1,9 @@
 <?=$cabecera?>
+<a class="btn btn-danger" href="<?php echo base_url('/salir') ?>">Salir <span class="sr-only">(current)</span></a>
+<br/>
 <h3>Sistema de comercios, bienvenido nuevamente <?= session('name'); ?>!</h3>
 <br/>
+       
 <a class="btn btn-success" href="<?=base_url('alta')?>">Alta de comercio</a>
 <hr/> 
  

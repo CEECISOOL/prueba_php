@@ -8,6 +8,8 @@ use CodeIgniter\Filters\DebugToolbar;
 use CodeIgniter\Filters\Honeypot;
 use CodeIgniter\Filters\InvalidChars;
 use CodeIgniter\Filters\SecureHeaders;
+use App\Filters\SessionAdmin;
+
 
 class Filters extends BaseConfig
 {
@@ -23,6 +25,7 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
+		'SessionAdmin'  => SessionAdmin::class
     ];
 
     /**
@@ -68,5 +71,23 @@ class Filters extends BaseConfig
      *
      * @var array
      */
-    public $filters = [];
+    public $filters = [
+        "SessionAdmin" => [
+            "before" => [
+                "/comercios",
+                "/alta/*",
+                "/guardar/*",
+                "/borrar/*",
+                "/editar/*",
+                "/actualizar/*",
+                "/cbu/*",
+                "/altaCbu/*", 
+                "/borrarCbu/*",
+                "/guardarCbu/*",
+                "/editarCbu/*", 
+                "/actualizarCbu/*",
+
+            ]
+        ]
+    ];
 }

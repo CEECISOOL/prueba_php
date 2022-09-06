@@ -3,12 +3,13 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 05-09-2022 a las 22:50:43
+-- Tiempo de generación: 06-09-2022 a las 22:03:05
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 7.4.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
+SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -75,16 +76,17 @@ CREATE TABLE `users` (
   `name` varchar(255) NOT NULL,
   `lastname` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL
+  `password` varchar(255) NOT NULL,
+  `type` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `users`
 --
 
-INSERT INTO `users` (`id_user`, `name`, `lastname`, `email`, `password`) VALUES
-(1, 'cecilia', 'acevedo', 'cbritez6@gmail.com', '1234'),
-(2, 'cecilia solange', 'acevedo', 'ceeci@gmail.com', '1234');
+INSERT INTO `users` (`id_user`, `name`, `lastname`, `email`, `password`, `type`) VALUES
+(1, 'cecilia', 'acevedo', 'cbritez6@gmail.com', '1234', 'admin'),
+(2, 'cecilia solange', 'acevedo', 'ceeci@gmail.com', '1234', '');
 
 --
 -- Índices para tablas volcadas
